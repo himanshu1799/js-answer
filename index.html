@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=
+1.0">
+<title>Document</title>
+
+</head>
+<body>
+<input id=demoInput type=number min=-1000 max=1000>
+<button onclick="increment()">+</button>
+<button onclick="decrement()">-</button>
+<script>
+    function increment() {
+        document.getElementById('demoInput').stepUp();
+    }
+    function decrement() {
+        document.getElementById('demoInput').stepDown();
+    }
+</script>
+</body>
+</html>
